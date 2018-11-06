@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>04730C45-E586-4A77-B4CF-58B5F773896E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 14.0390625 20 14.0390625 20 0.0390625 0 0.0390625"></polygon>
+    </defs>
+    <g id="Админка---Back-end" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-Админка" transform="translate(-43.000000, -1170.000000)">
+            <g id="Group-2" transform="translate(28.000000, 1158.000000)">
+                <g id="icon/flag/russia" transform="translate(15.000000, 12.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 0.017500)" fill="#F5F5F5">
+                        <path d="M18.5021602,0.0215585937 L1.49786328,0.0215585937 C0.670597656,0.0215585937 1.171875e-05,0.789203653 1.171875e-05,1.73620587 L1.171875e-05,5.02155859 L20.0000117,5.02155859 L20.0000117,1.73620587 C20.0000117,0.789203653 19.3294258,0.0215585937 18.5021602,0.0215585937" id="Fill-1"></path>
+                    </g>
+                    <path d="M0,12.8699609 C0,13.6971875 0.670585938,14.3678125 1.49785156,14.3678125 L18.5021484,14.3678125 C19.329375,14.3678125 20,13.6972266 20,12.8699609 L20,10 L0,10 L0,12.8699609 Z" id="Fill-4" fill="#FF4A55"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-7"></g>
+                    <polygon id="Fill-6" fill="#3C459F" mask="url(#mask-2)" points="0 10 20 10 20 5 0 5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

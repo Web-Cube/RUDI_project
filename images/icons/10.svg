@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>288499A7-7393-4EAB-8060-4CF199EEA3CC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 18 0 18 18 0 18"></polygon>
+    </defs>
+    <g id="Админка---Back-end" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-Админка" transform="translate(-359.000000, -370.000000)">
+            <g id="Group-18" transform="translate(290.000000, 288.000000)">
+                <g id="Group" transform="translate(40.000000, 51.000000)">
+                    <g id="icon/check/white/10" transform="translate(28.000000, 28.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M1.98364413,10.3885714 C1.86018589,10.2651429 1.8,10.0784571 1.8,9.95502857 C1.8,9.83082857 1.86018589,9.64722857 1.98364413,9.5238 L2.84862343,8.65902857 C3.09631152,8.4114 3.46668624,8.4114 3.71360273,8.65902857 L3.77456023,8.72228571 L7.17120507,12.3626571 C7.29466331,12.4860857 7.47830744,12.4860857 7.6025373,12.3626571 L15.8726962,3.78282857 L15.9367401,3.78282857 C16.1836566,3.53905714 16.5540313,3.53905714 16.8017194,3.78282857 L17.6636123,4.6476 C17.9105287,4.89522857 17.9105287,5.26551429 17.6636123,5.51237143 L7.78926788,15.7584857 C7.66580964,15.8819143 7.54157979,15.9420857 7.3548492,15.9420857 C7.17120507,15.9420857 7.04774683,15.8819143 6.92428859,15.7584857 L2.10710237,10.5721714 L1.98364413,10.3885714 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

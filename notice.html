@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Список курсов</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--build:css style.min.css -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!-- endbuild -->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="main-wrapper">
+	<!-- Popup form example -->
+    <div class="left-menu">
+        <div class="left-menu__top">
+            <div class="left-menu__head">
+                <a href="#" class="left-menu__logo"><i class="left-menu__logo-icon js-svg" data-svg-src="images/icons/rudi.svg"></i>RUDI</a>
+                <div class="left-menu__close js-svg" data-svg-src="images/icons/close.svg"></div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-menu__item">
+                    <a href="home.html" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/house.svg"></i>Рабочий стол</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="#" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/chart.svg"></i>Статистика</a>
+                </li>
+                <li class="nav-menu__item nav-menu__item_active">
+                    <a href="courses.html" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/file-folder.svg"></i>Мои курсы</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="#" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/shape.svg"></i>Файлы и документы</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="#" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/globe.svg"></i>Сайты</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="#" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/user.svg"></i>Пользователи</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="#" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/shop.svg"></i>Продажа</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="#" class="nav-menu__head"><i class="nav-menu__head-icon js-svg" data-svg-src="images/icons/server.svg"></i>База знаний</a>
+                </li>
+            </ul>
+        </div>
+        <div class="left-menu__bottom">
+            <div class="left-menu__bottom-copyright">
+                <nav class="copyright-menu">
+                    <a href="#" class="copiryght-menu__item">О сервисе</a>
+                    <a href="#" class="copiryght-menu__item">Условия использования</a>
+                    <a href="#" class="copiryght-menu__item">Конфиденциальность</a>
+                    <a href="#" class="copiryght-menu__item">Новые функции</a>
+                </nav>
+                <div class="mt15">
+                    <div class="font_size12 color_grey">© 2018 •RUDI• </div>
+                </div>
+            </div>
+            <div class="user-box mt40">
+                <div class="user-box__ava">
+                    <img src="images/img.jpg" srcset="images/img@2x.jpg 2x,images/img@3x.jpg 3x" class="user-box__ava-img">
+                    <div class="user-box__ava-count">4</div>
+                </div>
+                <div class="user-box__name">
+                    <div class="font_size14 fw_medium">Иван Иванов</div>
+                </div>
+                <div class="user-box__arrow js-svg" data-svg-src="images/icons/select_arrow.svg"></div>
+                <div class="user-nav">
+                    <div class="user-nav__head">
+                        <img src="images/user-sucsess.svg" alt="" class="user-nav__logo">
+                        <div class="user-nav__nikname">
+                            <div class="font_size14 fw_medium color_white">Artrepin</div>
+                        </div>
+                    </div>
+                    <a href="#" class="user-nav__item">
+                        <i class="user-nav__icon js-svg" data-svg-src="images/icons/notice.svg"></i>
+                        <span class="font_size14">Уведомления</span>
+                        <span class="user-nav__circle"></span>
+                    </a>
+                    <a href="#" class="user-nav__item">
+                        <i class="user-nav__icon js-svg" data-svg-src="images/icons/upgrade.svg"></i>
+                        <span class="font_size14">Тариф</span>
+                        <button class="user-nav__btn">Обновить</button>
+                    </a>
+                    <a href="#" class="user-nav__item">
+                        <i class="user-nav__icon js-svg" data-svg-src="images/icons/settings.svg"></i>
+                        <span class="font_size14">Настройки</span>
+                    </a>
+                    <a href="#" class="user-nav__item">
+                        <i class="user-nav__icon js-svg" data-svg-src="images/icons/log-out.svg"></i>
+                        <span class="font_size14">Выход</span>
+                    </a>
+                    <div class="user-nav__arrow js-svg" data-svg-src="images/icons/select_arrow.svg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <header class="header">
+            <div class="nav-header">
+                <div class="nav-header__left">
+                   <div class="burger">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                    <div class="nav-header__title">
+                        <a href="courses.html" class="font_size14 fw_medium color_grey back-courses"><span class="back-courses__arrow js-svg" data-svg-src="images/icons/down-arrow.svg"></span> Вернуться назад</a>
+                    </div>
+                </div>
+                <div class="nav-header__right">
+                    <form action="#" class="search-form search-form_header">
+                        <input type="text" class="search-form__input search-form__input_header" placeholder="Поиск…">
+                        <button class="search-form__btn search-form__btn_header js-svg" data-svg-src="images/icons/search.svg"></button>
+                    </form>
+                    <a href="#" class="create-btn js-svg" data-svg-src="images/icons/plus.svg"></a>
+                    <a href="#" class="quest-btn js-svg" data-svg-src="images/icons/question-sign.svg"></a>
+                </div>
+            </div>
+        </header>
+        <div class="main-content mt20">
+            <div class="head-content">
+                <div class="head-content__left">
+                    <div class="page-title"><span class="font_size24 fw_medium">Уведомления</span></div>
+                </div>
+                <div class="head-content__right">
+                </div>
+            </div>
+            <div class="page-nav mt10">
+                <nav class="page-menu">
+                    <a href="#" class="page-menu__item page-menu__item_active">ВХОДЯЩИЕ</a>
+                    <a href="#" class="page-menu__item">АРХИВ</a>
+                </nav>
+                <a href="#" class="to-archive"><span class="to-archive__icon js-svg" data-svg-src="images/icons/close.svg"></span><span class="font_size14 font_upper fw_medium color_grey">Переместить все уведомления в архив</span></a>
+            </div>
+            <div class="notice-list mt40">
+                <div class="notice-box">
+                    <div class="notice-box__left">
+                        <div class="notice-box__icon js-svg" data-svg-src="images/icons/cash.svg"></div>
+                        <div class="notice-box__content">
+                            <div class="notice-box__content-head">
+                                <div class="notice-box__title"><span class="font_size24">Пришла оплата</span></div>
+                                <div class="notice-box__check color_green">
+                                    <div class="notice-box__check-icon js-svg" data-svg-src="images/icons/check.svg"></div>
+                                    <div class="notice-box__check-text"><span class="font_size14 fw_medium">Оплата</span></div>
+                                </div>
+                            </div>
+                            <div class="notice-box__desc"><span class="font_size14 color_grey">Вы получили 100 000 рублей, по счету за программу “Instagram 2.0”</span></div>
+                        </div>
+                    </div>
+                    <div class="notice-box__right">
+                        <div class="notice-box__time"><span class="fw_medium font_size14 color_grey">Сегодня, 10:30</span></div>
+                        <a href="#" class="notice-box__delete js-svg" data-svg-src="images/icons/close.svg"></a>
+                    </div>
+                </div>
+                <div class="notice-box">
+                    <div class="notice-box__left">
+                        <div class="notice-box__icon js-svg" data-svg-src="images/icons/cash.svg"></div>
+                        <div class="notice-box__content">
+                            <div class="notice-box__content-head">
+                                <div class="notice-box__title"><span class="font_size24">Пришла оплата</span></div>
+                                <div class="notice-box__check color_green">
+                                    <div class="notice-box__check-icon js-svg" data-svg-src="images/icons/check.svg"></div>
+                                    <div class="notice-box__check-text"><span class="font_size14 fw_medium">Оплата</span></div>
+                                </div>
+                            </div>
+                            <div class="notice-box__desc"><span class="font_size14 color_grey">Вы получили 100 000 рублей, по счету за программу “Instagram 2.0”</span></div>
+                        </div>
+                    </div>
+                    <div class="notice-box__right">
+                        <div class="notice-box__time"><span class="fw_medium font_size14 color_grey">Вчера, 15:25</span></div>
+                        <a href="#" class="notice-box__delete js-svg" data-svg-src="images/icons/close.svg"></a>
+                    </div>
+                </div>
+                <div class="notice-box">
+                    <div class="notice-box__left">
+                        <div class="notice-box__icon js-svg" data-svg-src="images/icons/cash.svg"></div>
+                        <div class="notice-box__content">
+                            <div class="notice-box__content-head">
+                                <div class="notice-box__title"><span class="font_size24">Пришла оплата</span></div>
+                                <div class="notice-box__check color_green">
+                                    <div class="notice-box__check-icon js-svg" data-svg-src="images/icons/check.svg"></div>
+                                    <div class="notice-box__check-text"><span class="font_size14 fw_medium">Оплата</span></div>
+                                </div>
+                            </div>
+                            <div class="notice-box__desc"><span class="font_size14 color_grey">Вы получили 100 000 рублей, по счету за программу “Instagram 2.0”</span></div>
+                        </div>
+                    </div>
+                    <div class="notice-box__right">
+                        <div class="notice-box__time"><span class="fw_medium font_size14 color_grey">11 октября, 12:28</span></div>
+                        <a href="#" class="notice-box__delete js-svg" data-svg-src="images/icons/close.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--build:js js/components.min.js -->
+<script type="text/javascript" src="js/components/jquery.fancybox.js" ></script>
+<script type="text/javascript" src="js/components/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="js/components/jquery.form.js"></script>
+<script type="text/javascript" src="js/components/slick.js"></script>
+<script type="text/javascript" src="js/components/parsley.min.js"></script>
+<!-- endbuild -->
+<!--build:js js/data.min.js -->
+<script type="text/javascript" src="js/data.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

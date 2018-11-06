@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="77px" viewBox="0 0 79 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>89B582E8-4059-4240-9427-514A85AF0E3B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Админка---Back-end" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-Админка" transform="translate(-444.000000, -903.000000)">
+            <g id="Group-15" transform="translate(290.000000, 852.000000)">
+                <g id="Icon" transform="translate(154.000000, 51.000000)">
+                    <path d="M79,7 L0,7 L0,3.87221684 C0,1.73378509 1.48726008,0 3.32163054,0 L75.6783695,0 C77.5127399,0 79,1.73378509 79,3.87221684 L79,7 Z" id="Fill-3" fill="#53A99C"></path>
+                    <path d="M75.6783695,77 L3.32163054,77 C1.48726008,77 0,74.8693576 0,72.2414463 L0,6 L79,6 L79,72.2414463 C79,74.8693576 77.5127399,77 75.6783695,77" id="Fill-5" fill="#EBECF1"></path>
+                    <text id="04" font-family="GothamPro-Medium, Gotham Pro" font-size="24" font-weight="400" fill="#CBD4DB">
+                        <tspan x="21" y="62">04</tspan>
+                    </text>
+                    <g id="Group-13" transform="translate(9.000000, 11.000000)">
+                        <polygon id="Fill-7" fill="#CBD4DB" points="4.78817393 27 3 25.2118261 21.2118261 7 23 8.78817393"></polygon>
+                        <polygon id="Fill-9" fill="#CBD4DB" points="37.7881739 22 36 20.2118261 54.2118261 2 56 3.78817393"></polygon>
+                        <polygon id="Fill-11" fill="#CBD4DB" points="34 21.1739492 32.1739492 23 20 10.8260508 21.8260508 9"></polygon>
+                        <path d="M8,26 C8,28.209171 6.209171,30 4,30 C1.790829,30 0,28.209171 0,26 C0,23.790829 1.790829,22 4,22 C6.209171,22 8,23.790829 8,26" id="Fill-13" fill="#9074ED"></path>
+                        <path d="M21,15 C18.790829,15 17,13.209171 17,11 C17,8.790829 18.790829,7 21,7 C23.209171,7 25,8.790829 25,11 C25,13.209171 23.209171,15 21,15 Z" id="Fill-15" fill="#9074ED"></path>
+                        <path d="M39,23 C39,25.209171 37.209171,27 35,27 C32.790829,27 31,25.209171 31,23 C31,20.790829 32.790829,19 35,19 C37.209171,19 39,20.790829 39,23" id="Fill-17" fill="#9074ED"></path>
+                        <path d="M58,4 C58,6.209171 56.209171,8 54,8 C51.790829,8 50,6.209171 50,4 C50,1.790829 51.790829,0 54,0 C56.209171,0 58,1.790829 58,4" id="Fill-19" fill="#9074ED"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
