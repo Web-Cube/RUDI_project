@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Регистрация</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--build:css style.min.css -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!-- endbuild -->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="main-wrapper">
+    <div class="reg-page">
+        <div class="reg-page__left">
+            <div class="reg-page__inside-wrap">
+                <a href="#" class="left-menu__logo left-menu__logo_big"><i class="left-menu__logo-icon js-svg" data-svg-src="images/icons/rudi.svg"></i>RUDI</a>
+                <div class="offers-list mt40">
+                    <div class="offers-list__item">
+                        <div class="offers-list__img"><img src="images/img@2x.jpg" alt=""></div>
+                        <div class="mt10"><div class="offers-list__title font_size18">Создавайте</div></div>
+                        <div class="mt10">
+                            <div class="offers-list__desc font_size14 color_grey">С помощью платформы вы можете создать методические материалы и образовательные продукты </div>
+                        </div>
+                    </div>
+                    <div class="offers-list__item">
+                        <div class="offers-list__img"><img src="images/img@2x.jpg" alt=""></div>
+                        <div class="mt10"><div class="offers-list__title font_size18">Управляйте</div></div>
+                        <div class="mt10">
+                            <div class="offers-list__desc font_size14 color_grey">Добаляйте участников команды и работайте над программой вместе</div>
+                        </div>
+                    </div>
+                    <div class="offers-list__item">
+                        <div class="offers-list__img"><img src="images/img@2x.jpg" alt=""></div>
+                        <div class="mt10"><div class="offers-list__title font_size18">Зарабатывайте</div></div>
+                        <div class="mt10">
+                            <div class="offers-list__desc font_size14 color_grey">Выберите тариф для продажи: одноразовая оплата, подписка или бесплатный продукт</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reg-page__right">
+            <div class="reg-page__inside-wrap">
+                <div class="reg-form">
+                    <form action="#" class="reg-form__step" data-parsley-validate enctype="multipart/form-data">
+                        <h3 class="reg-form__title font_size24">Давайте познакомимся</h3>
+                        <div class="download-foto mt40">
+                            <img src="images/default_avatar.jpeg" alt="" class="download-foto__preview js-foto-img">
+                            <div class="download-foto__input-box">
+                                <input type="file" name="foto" class="download-foto__input js-foto-input">
+                                <div class="download-foto__icon js-svg" data-svg-src="images/icons/photo-camera.svg"></div>
+                                <div class="download-foto__name js-foto-name font_size14 fw_medium font_upper color_grey">Загрузить фотографию</div>
+                            </div>
+                        </div>
+                        <div class="mt40">
+                            <label for="email" class="reg-form__label font_size12 font_upper color_grey fw_medium">Почта</label>
+                            <div class="reg-form__input-box">
+                                <input type="email" id="email" class="reg-form__input font_size14" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required data-parsley-error-message="Введите email корректно." placeholder="mail@mail.com" value="margarita8870@gmail.com">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt30">
+                            <label for="name" class="reg-form__label font_size12 font_upper color_grey fw_medium">Имя Фамилия</label>
+                            <div class="reg-form__input-box">
+                                <input type="text" id="name" class="reg-form__input font_size14" placeholder="Иван Иванов" required data-parsley-error-message="Введите имя">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt30">
+                            <label for="pass" class="reg-form__label font_size12 font_upper color_grey fw_medium">Пароль</label>
+                            <div class="reg-form__input-box reg-form__input-box_pass">
+                                <input type="password" id="pass" class="reg-form__input font_size14" placeholder="••••••••" data-parsley-minlength="8" required data-parsley-error-message="Пароль должен состоять из 8 или более символов">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt10">
+                            <div class="reg-form__desc font_size14 color_grey js-pass-error">Пароль должен состоять из 8 или более символов</div>
+                        </div>
+                        <div class="mt40"><button class="reg-form__btn font_size14 font_upper fw_medium js-next-step" type="submit">Продолжить</button></div>
+                        <div class="reg-form__alert mt40">
+                            <div class="reg-form__alert-icon js-svg" data-svg-src="images/icons/alert.svg"></div>
+                            <div class="reg-form__alert-text font_size14">Вы можете пригласить участников команды для совместной работы над образовательными продуктами.</div>
+                        </div>
+                    </form>
+                    <form action="#" class="reg-form__step" data-parsley-validate enctype="multipart/form-data">
+                        <h3 class="reg-form__title font_size24">Создайте аккаунт <br>на платформе RUDI</h3>
+                        <div class="mt40">
+                            <label for="product" class="reg-form__label font_size12 font_upper color_grey fw_medium">Тип продукта</label>
+                            <div class="mt5">
+                                <select class="select-product font_size14 fw_medium" name="product" id="product">
+                                    <option value="">Уже есть готовый продукт</option>
+                                    <option value="">готовый продукт1</option>
+                                    <option value="">готовый продукт1</option>
+                                    <option value="">готовый продукт1</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mt15">
+                            <div class="reg-form__desc font_size14 color_grey">В зависимости от вашего уровня платформа будет давать вам соответствующие подсказки.</div>
+                        </div>
+                        <div class="mt30">
+                            <label for="domain" class="reg-form__label font_size12 font_upper color_grey fw_medium">Имя и домен вашей школы*</label>
+                            <div class="domain-box mt10">
+                                <input type="text" name="domain" required pattern="[A-Za-z]" data-parsley-error-message="Введите домен (без пробелов и рус. символов)" class="domain-box__input font_size14" placeholder="artrepin">
+                                <div class="domain-box_text font_size14"><strong>.rudiapp.ru</strong></div>
+                            </div>
+                        </div>
+                        <div class="mt40"><button class="reg-form__btn font_size14 font_upper fw_medium js-next-step" type="submit">Продолжить</button></div>
+                        <div class="reg-form__alert mt40">
+                            <div class="reg-form__alert-icon js-svg" data-svg-src="images/icons/alert.svg"></div>
+                            <div class="reg-form__alert-text font_size14">Вы можете пригласить участников команды для совместной работы над образовательными продуктами.</div>
+                        </div>
+                    </form>
+                    <form action="#" class="reg-form__step" data-parsley-validate enctype="multipart/form-data">
+                        <h3 class="reg-form__title font_size24">Кто сможет помочь <br>вам в работе?</h3>
+                        <div class="mt40">
+                            <label for="invite1" class="reg-form__label font_size12 font_upper color_grey fw_medium">Почта для отправки приглашения</label>
+                            <div class="reg-form__invite">
+                                <label for="invite1" class="reg-form__invite-icon js-svg" data-svg-src="images/icons/user.svg"></label>
+                                <input type="email" id="invite1" class="reg-form__input font_size14" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-parsley-error-message="Введите email корректно.">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt30">
+                            <label for="invite2" class="reg-form__label font_size12 font_upper color_grey fw_medium">Почта для отправки приглашения</label>
+                            <div class="reg-form__invite">
+                                <label for="invite2" class="reg-form__invite-icon js-svg" data-svg-src="images/icons/user.svg"></label>
+                                <input type="email" id="invite2" class="reg-form__input font_size14" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-parsley-error-message="Введите email корректно.">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt30">
+                            <label for="invite3" class="reg-form__label font_size12 font_upper color_grey fw_medium">Почта для отправки приглашения</label>
+                            <div class="reg-form__invite">
+                                <label for="invite3" class="reg-form__invite-icon js-svg" data-svg-src="images/icons/user.svg"></label>
+                                <input type="email" id="invite3" class="reg-form__input font_size14" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-parsley-error-message="Введите email корректно.">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt40"><button class="reg-form__btn font_size14 font_upper fw_medium js-next-step">Продолжить</button></div>
+                        <div class="reg-form__alert mt40">
+                            <div class="reg-form__alert-icon js-svg" data-svg-src="images/icons/alert.svg"></div>
+                            <div class="reg-form__alert-text font_size14">Вы можете пригласить участников команды для совместной работы над образовательными продуктами.</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="completed-steps">
+                <div class="completed-steps__item"></div>
+                <div class="completed-steps__item completed-steps__item_active"></div>
+                <div class="completed-steps__item"></div>
+                <div class="completed-steps__item"></div>
+                <a href="#" class="btn-skip js-skip-step"><span class="fw_medium font_size14 font_upper color_grey">Пропустить</span><span class="btn-skip__icon js-svg" data-svg-src="images/icons/down-arrow.svg"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--build:js js/components.min.js -->
+<script type="text/javascript" src="js/components/jquery.fancybox.js" ></script>
+<script type="text/javascript" src="js/components/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="js/components/jquery.form.js"></script>
+<script type="text/javascript" src="js/components/slick.js"></script>
+<script type="text/javascript" src="js/components/parsley.min.js"></script>
+<!-- endbuild -->
+<!--build:js js/data.min.js -->
+<script type="text/javascript" src="js/data.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

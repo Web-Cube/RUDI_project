@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Регистрация</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--build:css style.min.css -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!-- endbuild -->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="main-wrapper">
+    <div class="reg-page">
+        <div class="reg-page__left">
+            <div class="reg-page__inside-wrap">
+                <a href="#" class="left-menu__logo left-menu__logo_big"><i class="left-menu__logo-icon js-svg" data-svg-src="images/icons/rudi.svg"></i>RUDI</a>
+                <div class="reg-page__play js-svg js-popup-show js-sea-video" data-svg-src="images/icons/play-button.svg" data-popup-name="popup-video" data-video-src="https://www.youtube.com/embed/vzqopbMpkWo?autoplay=1&amp;loop=1&amp;rel=0&amp;playlist=vzqopbMpkWo"></div>
+            </div>
+        </div>
+        <div class="reg-page__right">
+            <div class="reg-page__inside-wrap">
+                <div class="reg-page__play js-svg js-popup-show js-sea-video" data-svg-src="images/icons/play-button.svg" data-popup-name="popup-video" data-video-src="https://www.youtube.com/embed/vzqopbMpkWo?autoplay=1&amp;loop=1&amp;rel=0&amp;playlist=vzqopbMpkWo"></div>
+                <div class="reg-form">
+                    <form action="#" class="reg-form__step reg-form_email" data-parsley-validate enctype="multipart/form-data">
+                        <a href="#" class="left-menu__logo left-menu__logo_reg"><i class="left-menu__logo-icon js-svg" data-svg-src="images/icons/rudi.svg"></i>RUDI</a>
+                        <div class="mt30"><h3 class="reg-form__title font_size24">Добро пожаловать <br>на платформу RUDI</h3></div>
+                        <div class="mt40">
+                            <label for="email" class="reg-form__label font_size12 font_upper color_grey fw_medium">Почта*</label>
+                            <div class="reg-form__input-box">
+                                <input type="email" id="email" class="reg-form__input font_size14 js-email-remember" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required data-parsley-error-message="Введите email корректно." placeholder="mail@mail.com">
+                                <div class="reg-form__input-border"></div>
+                            </div>
+                        </div>
+                        <div class="mt40"><button class="reg-form__btn font_size14 font_upper fw_medium js-btn-remember" type="submit">Продолжить</button></div>
+                        <div class="mt20">
+                            <div class="reg-form__desc font_size14 color_grey fw_medium">Продолжая, вы соглашаетесь с <a href="#">Правилами сервиса</a> <br>и <a href="#">Политикой конфиденциальности</a></div>
+                        </div>
+                    </form>
+                    <div class="reg-form__step reg-form_confirm">
+                        <h3 class="reg-form__title font_size24">До завершения регистрации <br>осталось проверить почту!</h3>
+                        <div class="mt20"><div class="reg-form__desc font_size14 color_grey">Вам на почту <a href="mailto:margarita8870@gmail.com" class="js-your-email fw_medium" target="_blank">margarita8870@gmail.com</a> пришло письмо с ссылкой для подтверждения регистрации. Перейдите по ней и завершите регистрацию.</div></div>
+                        <div class="email-services">
+                            <a href="https://e.mail.ru/messages/inbox" class="email-services__item email-services__item_mail" target="_blank"><img src="images/mail.png" alt=""></a>
+                            <a href="https://mail.yandex.ua/" class="email-services__item email-services__item_yandex" target="_blank"><img src="images/yandex.png" alt=""></a>
+                            <a href="https://mail.google.com/mail/" class="email-services__item email-services__item_gmail" target="_blank"><img src="images/gmail.png" alt=""></a>
+                            <a href="" class="email-services__item email-services__item_outlook"><img src="images/outlook.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="completed-steps completed-steps_script">
+                <div class="completed-steps__item completed-steps__item_active"></div>
+                <div class="completed-steps__item"></div>
+                <div class="completed-steps__item"></div>
+                <div class="completed-steps__item"></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-video">
+        <div class="popup__overlay js-popup-close"></div>
+        <div class="modal-wrapper table">
+            <div class="cell">
+                <div class="popup__modal popup__video">
+                    <div class="js-popup-close popup__close js-svg" data-svg-src="images/icons/close.svg"></div>
+					<iframe src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--build:js js/components.min.js -->
+<script type="text/javascript" src="js/components/jquery.fancybox.js" ></script>
+<script type="text/javascript" src="js/components/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="js/components/jquery.form.js"></script>
+<script type="text/javascript" src="js/components/slick.js"></script>
+<script type="text/javascript" src="js/components/parsley.min.js"></script>
+<!-- endbuild -->
+<!--build:js js/data.min.js -->
+<script type="text/javascript" src="js/data.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
