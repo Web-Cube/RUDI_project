@@ -44,6 +44,9 @@ $(document).ready(function(){
 	$(".js-popup-close").click(function() {
 		$(this).closest(".popup").fadeOut(500);
         $("body").css("overflow","auto");
+        if ( $(".popup").hasClass("popup-video") ) {
+            $(".popup-video iframe").attr("src","");
+        }
 		return false;
 	});	
 	
@@ -62,15 +65,11 @@ $(document).ready(function(){
         setTimeout('$(".popup-thanck").fadeOut(500);',5000);
     }
     
-    $(".ajax-form").ajaxForm({
-        beforeSubmit: function(){
-            $(this).parsley({
-            });
-        },
-        success: function(){
-            thanck();
-        }
+    $(".js-sea-video").click(function(){
+        var video_src = $(this).data("video-src");
+        $(".popup-video iframe").attr("src",video_src);
     });
+    
 	
 	/* components */
 	
@@ -183,7 +182,7 @@ $(document).ready(function(){
     $('.js-foto-input').change(function() {
         var filename = $(this).val();
         if ( filename != '' ) {
-            $('.js-foto-name').html("Выбрать <br>другое");
+            $('.js-foto-name').html("Выбрать другое");
         }
         readURL(this);
     });
@@ -240,6 +239,56 @@ $(document).ready(function(){
             placeholder: "module__placeholder"
         });
     }
+    
+    $(".reg-form__step").parsley(function() {
+        if ( $("#pass").hasClass("parsley-error") ) {
+            $(".js-pass-error").addClass("color_red");
+        }
+    });
+    $(".reg-form__step").submit(function() {
+        next_step();
+        return false;
+    });
+    
+    $('.domain-box__input').keyup(function() {
+        str = $(this).val();
+        str = str.replace(/\s/g,'');
+        $(this).val(str);
+    });
+    
+    function next_step() {
+        $(".completed-steps__item_active").not(".completed-steps_script .completed-steps__item_active").removeClass("completed-steps__item_active").next().addClass("completed-steps__item_active");
+        $(".reg-form__step_active").removeClass("reg-form__step_active").hide().next().fadeIn(500).addClass("reg-form__step_active");
+        if ( $(".reg-form__step_active").index() > 0 ) {
+            $(".reg-page .offers-list").remove();
+        }
+        if ( $(".reg-form__step").hasClass("reg-form__step_active") ) {
+        } else {
+            window.location="home.html";
+        }
+    }
+    
+    $(".js-btn-remember").click(function(){
+        var email_remember = $(".js-email-remember").val();
+        $(".js-your-email").text(email_remember).attr("href","mailto:"+email_remember);
+        $(".email-services__item_outlook").attr("href","mailto:"+email_remember);
+    });
+    
+    $(".reg-form__step:first").addClass("reg-form__step_active");
+    
+    $(".js-add-course").click(function(){
+        $(".right-menu-wrap").fadeIn(500);
+        $(".right-menu").addClass("right-menu_active");
+    });
+    
+    $(".js-close-course").click(function(){
+        $(".right-menu-wrap").fadeOut(500);
+        $(".right-menu").removeClass("right-menu_active");
+    });
+    
+    $(".js-skip-step").click(function(){
+        next_step();
+    });
 
 });
 
